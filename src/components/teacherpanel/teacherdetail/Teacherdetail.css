@@ -1,0 +1,105 @@
+.teacherdetail{
+    background-color: #fff;
+    border-radius: 13px;
+    width: 100%;
+    box-shadow: 1px 1px 19px #00000047;
+    padding: 2rem;
+}
+.teacherdetail__number{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.teacherdetail label{
+    color: #6c757d;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.teacherdetail input{
+    background: #f5f5f5;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #6f6b80;
+    color: var(--color-body);
+    font-weight: 500;
+    height: 40px;
+    padding: 0 25px;
+    margin-left: 10px;
+}
+.teacherdetail__number2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.teacherdetail__number2 div{
+    display: flex;
+    flex-direction: column;
+    flex: 0.48;
+}
+.teacherdetail__number textarea{
+    background: #f5f5f5;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #6f6b80;
+    color: var(--color-body);
+    font-weight: 500;
+    min-height: 100px;
+    padding: 0 25px;
+    margin-left: 10px;
+
+}
+.teacherdetail__text{
+    font-size: 20px;
+    margin: 1rem 0;
+}
+.teacherdetail__number3{
+   width: fit-content;
+}
+.teacherdetail__btn{
+    margin-top: 2rem;
+    background: #525fe1;
+    background: var(--color-primary);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    color: var(--color-white);
+    display: inline-block;
+    font-size: 16px;
+    width: 150px;
+    padding: 10px 20px;
+    transition: .4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+    text-align: center;
+    font-weight: 300;
+    cursor: pointer;
+}
+.teacherdetail__inner__loading{
+    background-color: #fff;
+    border-radius: 13px;
+    width: 100%;
+    box-shadow: 1px 1px 19px #00000047;
+    padding: 2rem;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:500px){
+    .teacherdetail__number2{
+        flex-direction: column;
+    }
+    .teacherdetail__number2 div {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .teacherdetail__number{
+        margin-bottom: 0;
+    }
+    .teacherdetail__number5{
+        margin: 10px 0;
+    }
+}

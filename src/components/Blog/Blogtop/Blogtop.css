@@ -1,0 +1,60 @@
+.coursedetailtop{
+    background-image: url('./../../../Assets/images/signup/signup.jpeg');
+    position: relative;
+}
+.coursedetailtop__container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+.coursedetailtop__top{
+    font-size: 40px;
+    font-family: 'Vazirmatn', sans-serif;
+    letter-spacing: .1em;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+.coursedetailtop__bottom{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    color: #6f6b80;
+    font-weight: 200;
+    margin-right: 1rem;
+}
+.coursedetailtop__bottom svg{
+    margin: 0 10px;
+}
+.coursedetailtop__bottom a{
+    color: #6f6b80;
+    font-weight: 200;
+    cursor: pointer;
+}
+.coursedetailtop__bottom p{
+    color: #000;
+    font-weight: 300;
+}
+.coursedetailtop__icon1{
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 30px;
+}
+.coursedetailtop__icon2{
+    position: absolute;
+    z-index: 1;
+    right: -30px;
+    top: 24px;
+}
+.coursedetailtop__icon3{
+    position: absolute;
+    z-index: 1;
+    bottom: 28px;
+    left: 35%;
+}
+.coursedetailtop__icon4{
+    position: absolute;
+    z-index: 1;
+    bottom: 130px;
+    left: 108px;
+}

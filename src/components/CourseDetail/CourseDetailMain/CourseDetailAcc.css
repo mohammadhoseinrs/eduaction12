@@ -1,0 +1,105 @@
+.courseaccitem{
+    transition: .4s;
+}
+.courseaccitem__header__btn{
+    background: transparent;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    padding: 13px 35px;
+    position: relative;
+    text-align: left;
+    transition: .4s;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.courseaccitem__header{
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.courseaccitem__collapse{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 0;
+    padding: 0 35px 35px;
+    transition: all 0.5s ease;
+}
+.courseaccitem__collapse ul li{
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: space-between;
+    line-height: 26px;
+    margin: 0;
+    padding: 14px 0;
+    color: #6f6b80;
+    color: var(--color-body);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.courseaccitem__collapse ul a{
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: space-between;
+    line-height: 26px;
+    margin: 0;
+    padding: 14px 0;
+    color: #6f6b80;
+    color: var(--color-body);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.courseaccitem__collapse ul li:hover{
+    color: #000;
+
+}
+.courseaccitem__collapse ul li+li{
+    border-top: 1px solid #eee;
+}
+.courseaccitem__collapse ul a:hover{
+    color: #000;
+
+}
+.courseaccitem__collapse ul a+a{
+    border-top: 1px solid #eee;
+}
+.courseaccitem__collapse__text{
+    display: flex;
+    align-items: center;
+}
+.courseaccitem__collapse__text p{
+    margin-right: 10px;
+    font-weight: 200;
+}
+
+@media screen and (max-width:700px){
+    .courseaccitem__header__btn{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:550px){
+    .courseaccitem__header__btn{
+        font-size: 10px;
+        padding: 13px 10px;
+    }
+    .courseaccitem__collapse{
+        padding: 0 20px 20px;
+    }
+    .courseaccitem__collapse ul li{
+        font-size: 13px;
+    }
+    .cdm__videocard{
+        padding-bottom: 20px;
+    }
+    .courseaccitem__collapse__text p{
+        font-size: 12px;
+    }
+}

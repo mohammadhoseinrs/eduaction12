@@ -1,0 +1,42 @@
+.signuppage{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+@media screen and (max-width:1100px){
+    .signuppage{
+        width: 95%;
+    }
+}
+@media screen and (max-width:950px){
+    .signuppage{
+        flex-direction: column;
+        width: 90%;
+    }
+}
+@media screen and (max-width:550px){
+    .register__container , .signin{
+        padding: 20px;
+    }
+    .register__container__inside__title{
+        font-size: 25px;
+        margin-bottom: 1rem;
+    }
+    .register-form input , .signin__form__1 input{
+        height: 50px;
+    }
+    .register-form button , .signin__form__btn{
+        margin-top: 1rem;
+        height: 50px;
+        line-height: 50px;
+    }
+    .signin__form__remeber{
+        margin-top: 1rem;
+        font-size: 14px;
+    }
+    .register__agreemnet{
+        font-size: 14px;
+    }
+    
+}

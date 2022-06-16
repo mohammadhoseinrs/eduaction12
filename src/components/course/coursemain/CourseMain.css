@@ -1,0 +1,66 @@
+.coursemain{
+    width: 80%;
+    margin: 4rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.coursemain__filter{
+    width: 80%;
+    margin: 4rem auto;
+}
+.coursemain__filter__item__right input{
+    background: #f5f5f5;
+    border: 0;
+    border-radius: 5px;
+    color: #6f6b80;
+    font-size: 16px;
+    font-weight: 600;
+    height: 60px;
+    min-width: 350px;
+    padding: 0 30px 0 25px;
+}
+.coursemain__filter__item__right form{
+    position: relative;
+    max-width: 350px;
+}
+.coursemain__filter__item__right form button{
+    background: transparent;
+    border: 0;
+    padding: 0;
+    position: absolute;
+    left: 20px;
+    top: 55%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.coursemain__filter__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.css-1f43avz-a11yText-A11yText{
+    border: none !important;
+}
+.css-qc6sy-singleValue{
+    color: #6f6b80 !important;
+    position: relative;
+    z-index: 100;
+}
+.css-319lph-ValueContainer{
+    padding: 10px 20px !important;
+}
+.css-b62m3t-container{
+    width: 300px !important;
+}
+.css-1s2u09g-control{
+    background: #f5f5f5 !important;
+}
+.css-1pahdxg-control:hover{
+    background: #f5f5f5 !important;
+}
+.sexrchbox__error{
+    height: 70vh;
+}

@@ -1,0 +1,145 @@
+.teachercomment{
+    background-color: #fff;
+    border-radius: 13px;
+    width: 100%;
+    box-shadow: 1px 1px 19px #00000047;
+    padding: 2rem;
+    min-height: 80vh;
+}
+.teachercourse__main__item__text{
+    display: flex;
+}
+.teachercourse__main__item__text p{
+    font-weight: bolder;
+    margin: 0 10px;
+    color: var(--color-primary);
+}
+.teachercomment__comment{
+    background-color: #F5F5F5;
+    margin: 1rem 0;
+    border-radius: 8px;
+    padding: 2rem 1rem;
+}
+.teachercomment__main__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.teachercourse__main__item__comment{
+    margin-top: 1rem;
+    color: rgba(0, 0, 0, 0.578);
+    padding: 1rem;
+    font-size: 16px;
+    font-weight: 200;
+}
+.teachercomment__main__item__btn__green{
+    background-color: green !important;
+    margin-left: 1rem !important;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    color: var(--color-white);
+    display: inline-block;
+    font-size: 14px;
+    padding: 8px 16px;
+    transition: .4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+.teachercomment__comment__date{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.teachercomment__comment__date__number{
+    color: var(--color-primary);
+    margin-left: 10px;
+    font-weight: bolder;
+}
+.teachercomment__comment__date__number2{
+    font-weight: 200;
+}
+.teachercomment__main__set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.teachercomment__main__set button{
+    margin: 10px;
+    background-color: var(--color-primary);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.teachercomment__main__set button:hover{
+    opacity: 0.8;
+}
+.teachercourse__main__item__comment__context{
+    padding: 20px;
+    border: 3px dotted #959494;
+    border-radius: 8px;
+    margin-top: 2rem;
+    color: rgba(0, 0, 0, 0.578);
+    font-size: 16px;
+    font-weight: 200;
+}
+.teachercourse__main__item__comment2{
+    border: 3px dotted #959494;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    width: 90%;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.teachercourse__main__item__comment{
+    border: 3px dotted #959494;
+    border-radius: 8px;
+}
+.teachercourse__main__item__comment1 p , .teachercourse__main__item__comment2 p , .teachercourse__main__item__comment p{
+    color: var(--color-primary);
+    font-weight: 600;
+
+}
+.teachercourse__main__item__comment1 div , .teachercourse__main__item__comment2 div , .teachercourse__main__item__comment div {
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.teachercomment__top{
+    font-size: 20px;
+    font-family: 'Vazirmatn', sans-serif;
+    letter-spacing: .1em;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+@media screen and (max-width:1200px){
+    .teachercomment__main__item{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .teachercourse__main__item__btn{
+        align-self: flex-end;
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width:600px){
+    .teachercourse__main__item__text{
+        font-size: 12px;
+    }
+    .teachercomment__main__item__btn__green{
+        font-size: 11px;
+        padding: 8px 12px;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,47 @@
+.coursevideo{
+    width: 90%;
+    background: transparent;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    padding: 13px 35px;
+    position: relative;
+    text-align: left;
+    transition: .4s;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+    padding: 4rem 0;
+    
+}
+.coursevideo__right{
+    background: transparent;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    padding: 13px 15px;
+    position: relative;
+    text-align: left;
+    transition: .4s;
+    flex: 0.35;
+    max-height: 500px;
+    margin-right: 2rem;
+    overflow: scroll;
+}
+.coursevideo__left{
+    flex: 0.6;
+    margin-left: 2rem;
+}
+.coursevideo__left__top iframe{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.coursevideo__left__top{
+
+}

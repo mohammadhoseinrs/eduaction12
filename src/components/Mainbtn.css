@@ -1,0 +1,41 @@
+.mainbtn{
+    background: #525fe1;
+    background: var(--color-primary);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    color: var(--color-white);
+    display: inline-block;
+    font-size: 18px;
+    padding: 12px 25px;
+    transition: .4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.4s ease;
+}
+.mainbtn svg{
+    color: #fff;
+    margin-right: 20px;
+}
+.mainbtn:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+@media screen and (max-width:950px){
+    .mainbtn{
+        padding: 8px 18px;
+    }
+    .mainbtn svg{
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width:550px){
+    .mainbtn{
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+}
+
+

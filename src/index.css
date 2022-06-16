@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@800;900&family=Work+Sans:ital,wght@1,200&display=swap');
+@import url(fontiran.css);
+
+:root{
+  --color-primary: #525fe1;
+  --color-body: #6f6b80;
+  --color-white: #fff;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+ul , li {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+body{
+  font-family: IRANSans;
+  font-weight:normal;
+}
+button{
+  font-family: IRANSans;
+  font-weight: 300;
+}
+html{
+  scroll-behavior:smooth;
+}
+.font__title{
+  font-family: 'Vazirmatn', sans-serif;
+}
+img{
+  width: 100%;
+}
+input::placeholder{
+  font-family: IRANSans;
+    font-weight: 300;
+    font-size: 16px;
+}

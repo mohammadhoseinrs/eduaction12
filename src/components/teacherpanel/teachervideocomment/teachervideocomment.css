@@ -1,0 +1,19 @@
+.teachervideocomment__session{
+    margin: 10px 0;
+    display: flex;
+}
+.teachervideocomment__session div{
+    font-weight: bolder;
+    margin: 0 10px;
+    color: var(--color-primary);
+}
+.teachervideocomment__session p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.teachercourse__main__item__btn__second{
+    display: flex;
+    align-items: flex-end !important;
+    justify-content: flex-end !important;
+    margin: 20px 0;
+}

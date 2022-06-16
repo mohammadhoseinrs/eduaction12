@@ -1,0 +1,28 @@
+.paginationcontainer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paginationcontainer a{
+    margin: 20px;
+    border: 1px solid var(--color-primary);
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.paginationcontainer a:hover{
+    background-color: var(--color-primary);
+    color: #fff;
+}
+.paginationactive{
+    background-color: var(--color-primary);
+    color: #fff;
+}
+@media screen and (max-width:550px){
+    .paginationcontainer a {
+        margin: 10px;
+    }
+}

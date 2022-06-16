@@ -1,0 +1,137 @@
+.teacherpost{
+    background-color: #fff;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 1px 1px 19px #00000047;
+    padding: 2rem;
+}
+.teacherpost__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.teacherpost__top__left{
+    background: #525fe1;
+    background: var(--color-primary);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    color: var(--color-white);
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 20px;
+    transition: .4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.teacherpost__top__left svg{
+    margin-right: 10px;
+}
+.teacherpost__top__right{
+    font-size: 18px;
+    font-weight: 500;
+}
+.teacherpost__item{
+    background-color: orange;
+}
+.teacherpost__main__top__select{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.teacherpost__main__top__select select{
+    width: 150px;
+    padding: 5px 10px;
+    border: 1px solid #c9c8c8;
+    border-radius: 5px;
+    background: #f5f5f5;
+}
+.teacherpost__main__top__select p{
+    font-size: 15px;
+
+}
+.teacherpost__number{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.teacherpost label{
+    color: #6c757d;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.teacherpost input{
+    background: #f5f5f5;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #6f6b80;
+    color: var(--color-body);
+    font-weight: 500;
+    height: 40px;
+    padding: 0 25px;
+    margin-left: 10px;
+}
+.teacherpost__number2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.teacherpost__number2 div{
+    display: flex;
+    flex-direction: column;
+    flex: 0.48;
+}
+.teacherpost__explain{
+    margin: 2rem 0;
+}
+.teacherpost__main__top__select p ,.teacherpost__explain p {
+    color: #6c757d;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.techerpost__create{
+    margin-top: 2rem;
+    background: #525fe1;
+    background: var(--color-primary);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    color: var(--color-white);
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: .4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.techerpost__create:hover{
+    
+}
+.teacherpost__number label{
+    display: flex;
+    align-items: center;
+}
+.teacherpost__number label p{
+    font-size: 12px;
+    margin-right: 5px;
+    color: rgba(0, 0, 0, 0.382);
+    margin-top: 5px;
+}
+.preview p{
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width:720px){
+    .teacherpost__number2{
+        flex-direction: column;
+    }
+    .teacherpost__number2 div{
+        width: 100%;
+    }
+}

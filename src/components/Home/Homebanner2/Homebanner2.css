@@ -1,0 +1,103 @@
+.homebanner2{
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: -13rem;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    width: 80%;
+    border-radius: 8px;
+}
+.homebanner2__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 6rem 0;
+}
+.homebanner2__right{
+    flex: 0 0 auto;
+    color: #fff;
+}
+.homebanner2__left{
+    flex: 0 0 auto;
+}
+.homebanner2__left button{
+    background-color: #fff;
+    border: 0;
+    border-radius: 5px;
+    color: var(--color-primary);
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    padding: 0 30px;
+    transition: .4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.homebanner2__right__sub{
+    font-size: 14px;
+}
+.homebanner2__right__title{
+    font-size: 30px;
+    font-weight: 500;
+}
+.homebanner2__left p{
+    margin-left: 10px;
+}
+.homebanner2__left button:hover{
+    transform: translateY(-10px);
+}
+@media screen and (max-width:1150px){
+    .homebanner2__right__title{
+        font-size: 20px;
+    }
+    .homebanner2__left button{
+        font-size: 14px;
+        padding: 0 20px;
+        line-height: 50px;
+    }
+}
+@media screen and (max-width:810px){
+    .homebanner2__inner{
+        flex-direction: column;
+        padding: 3rem 0;
+        text-align: center;
+    }
+    .homebanner2__left{
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width:620px){
+    .homebanner2__inner{
+        padding: 1rem 0;
+    }
+    .homebanner2__right__title{
+        font-size: 12px;
+    }
+    .homebanner2__right__sub{
+        font-size: 10px;
+    }
+    .homebanner2__left button{
+        font-size: 12px;
+        line-height: 40px;
+    }
+    .homebanner2{
+        margin-bottom: -8rem;
+    }
+   
+}
+@media screen and (max-width:500px){
+    .homebanner2__left button{
+        font-size: 10px;
+        padding: 15px 15px;
+        line-height: 0;
+    }
+    .homebanner2__right__title{
+        font-size: 14px;
+    }
+}

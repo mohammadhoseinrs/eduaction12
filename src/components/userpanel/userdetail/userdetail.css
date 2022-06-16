@@ -1,0 +1,53 @@
+.userdetail{
+    background-color: #fff;
+    border-radius: 13px;
+    width: 100%;
+    box-shadow: 1px 1px 19px #00000047;
+    padding: 2rem;
+}
+.userdetail__number{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.userdetail label{
+    color: #6c757d;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.userdetail input{
+    background: #f5f5f5;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #6f6b80;
+    color: var(--color-body);
+    font-weight: 500;
+    height: 40px;
+    padding: 0 25px;
+    margin-left: 10px;
+}
+
+.userdetail__pass{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+.userdetail__btn{
+    margin-top: 2rem;
+}
+.userdetail__btn button{
+    background: #525fe1;
+    background: var(--color-primary);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    color: var(--color-white);
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 25px;
+    transition: .4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.4s ease;
+}

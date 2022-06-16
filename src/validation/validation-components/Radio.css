@@ -1,0 +1,28 @@
+.radio-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 0;
+}
+.radio-style > label{
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-size: 20px;
+   
+}
+.radio-options{
+    display: flex;
+    
+    align-items: center;
+    font-size: 13px;
+}
+.radio-options label{
+    width: 100px;
+    font-family: 500;
+    margin-bottom: 10px;
+}
+.radio-options input{
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+}

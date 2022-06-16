@@ -1,0 +1,56 @@
+.teachersession{
+    background-color: #fff;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 1px 1px 19px #00000047;
+    padding: 2rem;
+}
+.teachersession__top{
+    display: flex;
+}
+.teachersession__top p{
+    margin-right: 5px;
+    color: var(--color-primary);
+    font-weight: bolder;
+}
+.teachercourseadd__input{
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin: 2rem 0;
+    padding: 30px;
+}
+.teachercourseadd__percent__text{
+    padding: 1rem;
+    color: var(--color-primary);
+    font-weight: bolder;
+}
+.teachercourseadd__percent__percent{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    padding: 0 1rem;
+}
+.teachercourseadd__percent__percent p{
+    margin-left: 10px;
+}
+.upload__label{
+    margin-top: 2rem;
+    font-weight: bolder;
+}
+.teachercourseadd__input_input3{
+    margin-top: 0.2rem;
+    background: #f5f5f5;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.teachercourseadd__main__item > div p{
+    font-weight: bolder;
+    color: var(--color-primary);
+    margin-left: 5px;
+}
+.teachercourseadd__main__item > div {
+    display: flex;
+    align-items: center;
+}

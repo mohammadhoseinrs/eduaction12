@@ -1,0 +1,77 @@
+.instructormain{
+    width: 90%;
+    margin: 4rem auto;
+}
+.instructormain__top{
+    text-align: center;
+}
+.instructormain__top h6{
+    color: #525fe1;
+    color: var(--color-primary);
+    font-size: 16px;
+    letter-spacing: .1em;
+    line-height: 26px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.instructormain__top h1{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.instructormain__top__main{
+    margin-top: 2rem;
+}
+.instructormain__top__main__item{
+    flex: 0 0 auto;
+    width: 23%;
+    height: 350px;
+    position: relative;
+    transition: .3s;
+    z-index: 2;
+    line-height: 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+.instructormain__top__main__item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.instructormain__top__main__item::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.286);
+    transition: all 0.4s ease;
+    opacity: 0;
+    border-radius: 10px;
+}
+.instructormain__top__main__item__name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    color: rgb(0, 0, 0);
+    z-index: 3;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: #fff;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    width: fit-content;
+    transition: all 0.6s ease;
+    
+}
+.instructormain__top__main__item__name:hover{
+    color: #525fe1;
+}
+.instructormain__top__main__item:hover:after{
+    opacity: 1;
+}
+.instructormain__top__main__item:hover .instructormain__top__main__item__name{
+    opacity: 1;
+}

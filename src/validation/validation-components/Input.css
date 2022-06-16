@@ -1,0 +1,23 @@
+.input-style{
+    display: flex;
+    flex-direction: column;
+}
+.input-style input{
+    background: #f5f5f5;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #000000;
+    font-weight: 500;
+    height: 60px;
+    padding: 0 25px;
+    font-size: 18px;
+}
+.input-style input:focus{
+    box-shadow: 0px 0px 10px #00000040;
+    outline: none;
+}
+.input-style input::placeholder{
+    font-size: 18px;
+    font-family: IRANSass;
+    font-weight: 200;
+}

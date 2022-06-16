@@ -1,0 +1,170 @@
+.faqmain{
+    width: 80%;
+    margin:5rem auto;
+    text-align: center;
+}
+.faqmain__top span{
+    color: #525fe1;
+    color: var(--color-primary);
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: .1em;
+    line-height: 26px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.faqmain__top{
+    width: 60%;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 25px;
+}
+.faq__btn{
+    width: 50%;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.faq__btn button{
+    background: #f5f5f5;
+    border: 0;
+    border-radius: 4px;
+    color: #231f40;
+    font-size: 16px;
+    font-weight: 500;
+    height: 50px;
+    line-height: 50px;
+    line-height: 26px;
+    padding: 0 50px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.4s ease;
+}
+.faq__btn button::after{
+    background-image: url(./../../../Assets/images/btn-img.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    height: 92%;
+    left: -5px;
+    opacity: 1;
+    position: absolute;
+    top: -3px;
+    transition: .4s;
+    width: 77px;
+    z-index: -1;
+}
+.faq__btn__active{
+    background-color: var(--color-primary) !important;
+    color: #fff !important;
+}
+.faqmain__main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.faqmain__main__item{
+    width: 100%;
+}
+.faqmain__main__item__header{
+    background: transparent;
+    border: 0;
+    border-top: 1px solid rgb(226, 225, 225);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.courseaccitem__collapse1{
+    padding: 0 30px;
+    font-weight: 200;
+    text-align: right;
+    margin-bottom: 2rem;
+    transition: all 0.5s ease;
+}
+.faq__btn button:hover{
+    background-color: #525fe1;
+    color: #fff;
+    cursor: pointer;
+}
+@media screen and (max-width:1200px){
+    .faq__btn{
+        width: 80%;
+    }
+}
+@media screen and (max-width:800px){
+    .faq__btn{
+        width: 100%;
+    }
+    .faqmain__top{
+        width: 100%;
+    }
+}
+@media screen and (max-width:650px){
+    .faqmain__top p{
+        font-size: 18px;
+    }
+    .faqmain__top span{
+        font-size: 14px;
+    }
+    .faq__btn button {
+        font-size: 14px;
+        padding: 0 30px;
+    }
+    .faqmain__main__item__header{
+        font-size: 16px;
+    }
+    .faqmain__main__item p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:500px){
+    .faqmain__top p{
+        font-size: 16px;
+    }
+    .faqmain__top span{
+        font-size: 12px;
+    }
+    .faq__btn{
+        flex-direction: column;
+    }
+    .faq__btn button{
+        margin-bottom: 2rem;
+        font-size: 16px;
+        padding: 0 70px;
+    }
+    .faqmain__main__item__header{
+        font-size: 14px;
+    }
+    .faqmain__main__item p{
+        font-size: 12px;
+    }
+    .faqmain__main{
+        margin-top: 0;
+    }
+    .faqmain{
+        width: 85%;
+    }
+    .courseaccitem__collapse1 {
+        padding: 0 15px;
+    }
+}
+@media screen and (max-width:390px){
+    .faqmain__main__item__header{
+        font-size: 12px;
+    }
+    .faqmain__main__item p{
+        font-size: 11px;
+    }
+}

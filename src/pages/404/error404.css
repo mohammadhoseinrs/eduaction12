@@ -1,0 +1,84 @@
+.error404{
+    background-image: url('./../../Assets//images/bg404.jpg');
+    background-repeat: no-repeat;
+    height: 140vh;
+    position: absolute;
+    top: 0;
+    z-index: 6;
+    width: 100%;
+}
+.error404__image{
+    width: 50%;
+    margin: 0 auto;
+}
+.error404__content{
+    margin-top: 4rem;
+    text-align: center;
+}
+.error404__content h3{
+    color: var(--color-primary);
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+.error404__content p{
+    font-weight: 200;
+}
+.error404__content__footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem 0;
+}
+.error404__content__footer__btn{
+    background: #525fe1;
+    background: var(--color-primary);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    color: var(--color-white);
+    display: inline-block;
+    font-size: 18px;
+    padding: 12px 25px;
+    transition: .4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.4s ease;
+}
+.error404__content__footer__btn svg{
+    color: #fff;
+    margin-right: 20px;
+}
+.error404__content__footer__btn:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+.error404__content__footer__btn a{
+    color: #fff;
+}
+@media screen and (max-width:950px){
+    .error404__content__footer__btn{
+        padding: 8px 18px;
+    }
+    .error404__content__footer__btn svg{
+        margin-right: 10px;
+    }
+    .error404__content{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:550px){
+    .error404__content__footer__btn{
+        font-size: 14px;
+    }
+    .error404__image{
+        width: 100%;
+    }
+    .error404__content h3{
+        font-size: 25px;
+    }
+}
+

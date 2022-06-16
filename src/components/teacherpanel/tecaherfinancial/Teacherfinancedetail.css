@@ -1,0 +1,63 @@
+.finance__detail__inner__input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+.finance__detail__inner__input div{
+    display: flex;
+    flex-direction: column;
+    flex: 0.48 1;
+}
+.finance__detail__inner__form label{
+    color: #6c757d;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.finance__detail__inner__form input{
+    background: #f5f5f5;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #6f6b80;
+    color: var(--color-body);
+    font-weight: 500;
+    height: 40px;
+    padding: 0 25px;
+    margin-left: 10px;
+}
+.finance__detail__inner__input label{
+    display: flex;
+    align-items: center;
+}
+.finance__detail__inner__input label p{
+    font-size: 12px;
+    margin-right: 5px;
+    color: rgba(0, 0, 0, 0.382);
+    margin-top: 5px;
+}
+.finance__detail__inner__form__btn{
+    margin-top: 1rem;
+}
+.finance__detail__inner__form__btn button{
+    margin: 10px;
+    background-color: var(--color-primary);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.finance__detail__message{
+    margin-top: 1rem;
+    background-color: rgba(255, 0, 0, 0.784);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+.finance__detail__inner__input__margin{
+    margin-bottom: 2rem;
+}

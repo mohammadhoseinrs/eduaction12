@@ -1,0 +1,116 @@
+.blogitem{
+    flex: 0 0 auto;
+    width: 31.33333333%;
+    border-radius: 8px;
+    background: #f5f5f5;
+    overflow: hidden;
+    position: relative;
+    transition: .4s;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.blogitem:hover{
+    background: #fff;
+    background: var(--color-white);
+    box-shadow: 0 10px 25px rgb(0 0 0 / 5%);
+}
+.blogitem__top{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    line-height: 0;
+}
+.blogitem__top img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;    
+    overflow: hidden;
+    transition: .4s;
+    width: 100%;
+    object-fit: contain;
+    transition: all 0.3s ease;
+}
+.blogitem:hover .blogitem__top img{
+    transform: scale(1.1);
+}
+.blogitem__bottom{
+    padding: 30px;
+    padding-top: 20px;
+}
+.blogitem__bottom__top{
+    margin: -5px;
+    align-items: center;
+    color: #6f6b80;
+    display: flex;
+    font-size: 16px;
+    font-weight: 300;
+    transition: .4s;
+}
+.blogitem__bottom__top svg{
+    color: #525fe1;
+    color: var(--color-primary);
+    font-size: 20px;
+    margin-left: 5px;
+}
+.blogitem__bottom__title{
+    margin: 20px 0;
+    font-family: 'Vazirmatn', sans-serif;
+    transition: all 0.3s ease;
+    font-size: 20px;
+}
+.blogitem__bottom__bottom{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.blogitem__bottom__bottom__right{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blogitem__bottom__bottom__right svg{
+    color: #525fe1;
+    color: var(--color-primary);
+    font-size: 18px;
+    line-height: 0;
+}
+.blogitem__bottom__bottom__right p{
+    font-size: 12px;
+    margin-right: 5px;
+}
+.blogitem__bottom__bottom__left{
+    align-items: center;
+    display: flex;
+}
+.blogitem__bottom__bottom__left p{
+    color: #525fe1;
+    color: var(--color-primary);
+    font-weight: 500;
+}
+.blogitem__bottom__bottom__left svg{
+    color: #525fe1;
+    color: var(--color-primary);
+    font-size: 20px;
+    margin-right: 5px;
+}
+.blogitem__bottom__title:hover{
+    color: #525fe1;
+}
+@media screen and (max-width:950px){
+    .blogitem__bottom__title{
+        font-size: 16px;
+    }
+    .blogitem{
+        width: 45%;
+    }
+}
+@media screen and (max-width:650px){
+    .blogitem{
+        width: 49%;
+    }
+}
+@media screen and (max-width:600px){
+    .blogitem{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+}

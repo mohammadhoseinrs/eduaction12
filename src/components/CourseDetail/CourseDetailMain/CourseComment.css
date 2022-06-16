@@ -1,0 +1,269 @@
+.coursecomment{
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 2rem;
+    margin-right: 4.5rem;
+    width: 58%;
+}
+.coursecomment__form{
+    margin-top: 2rem;
+}
+.coursecomment__form textarea{
+    width: 100%;
+    background: #f5f5f5;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #000000;
+    font-weight: 500;
+    padding: 10px;
+    font-size: 18px;
+}
+.coursecomment__form__btn{
+    margin-top: 1rem;
+    background: #525fe1;
+    background: var(--color-primary);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    color: var(--color-white);
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 30px;
+    transition: .4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.coursecomment__login{
+    margin-top: 2rem ;
+    padding-right: 10px;
+    font-size: 18px;
+    color: var(--color-primary);
+}
+.coursecomment__section__item{
+    margin: 2rem 0;
+    padding: 20px;
+    border: 1px solid #EBEEEF;
+    border-radius: 8px;
+}
+.coursecomment__section__item__top{
+    border-bottom: 1px solid #EBEEEF;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.coursecomment__section__item__content{
+    padding: 1rem 1rem 2rem 1rem;
+    text-align: justify;
+    font-weight: 200;
+}
+.coursecomment__section__item__top__name , .coursecomment__section__item__reply__name{
+    color: var(--color-primary);
+    font-size: 20px;
+}
+.coursecomment__section__item__top__time , .coursecomment__section__item__reply__time{
+    font-size: 14px;
+
+}
+
+.coursecomment__section__item__reply{
+    margin: 2rem 0;
+    padding: 20px;
+    border: 1px solid #EBEEEF;
+    border-radius: 8px;
+    background-color: #FBFCFC;
+    margin-right: 3rem;
+    position: relative;
+}
+.coursecomment__section__item__reply1{
+    border-bottom: 1px solid #EBEEEF;
+    padding-bottom: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.coursecomment__section__item__content__reply{
+    padding: 1rem 1rem 2rem 1rem;
+    text-align: justify;
+    font-weight: 200;
+}
+.coursecomment__section__item__reply{
+    background-color: #FBFCFC;
+    position: relative;
+}
+.coursecomment__section__item__reply__all{
+    position: relative;
+}
+.coursecomment__section__item__reply__all::before{
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    right: 17px;
+    top: -32px;
+    width: 3px;
+    background-color: rgb(201, 197, 197);
+}
+.coursecomment__section__item__reply::before{
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    right: -30px;
+    top: 81%;
+    width: 30px;
+    background-color: rgb(201, 197, 197);
+}
+.coursecomment__form__para{
+    font-size: 20px;
+    color: var(--color-primary);
+    margin-right: 10px;
+}
+.coursecomment__section__item__top__left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EBEEEF;
+    height: fit-content;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 0.3rem 0.7rem;
+    cursor: pointer;
+    color: #334154;
+    transition: all 0.4s ease;
+}
+.coursecomment__section__item__top__left svg{
+    margin-left: 5px;
+    font-size: 16px;
+}
+.coursecomment__section__item__top__left:hover{
+    background-color:#334154 ;
+    color: #EBEEEF;
+}
+.reply__comment__section{
+    margin-right: 4rem;
+}
+.reply__comment__section textarea{
+    width: 100%;
+    min-height:200px ;
+    background: #f5f5f5;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #000000;
+    font-weight: 500;
+    padding: 10px;
+    font-size: 18px;
+}
+.reply__comment__section__btn{
+    text-align: left;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.reply__comment__section__btn__submit{
+    background-color: var(--color-primary);
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid var(--color-primary);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100px;
+    height: 40px;
+}
+.reply__comment__section__btn__submit p{
+    font-size: 14px;
+}
+.reply__comment__section__btn__submit:hover{
+    background-color: #fff;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+}
+.reply__comment__section__btn__vaz{
+    margin-right: 2rem;
+    background-color:#fff ;
+    color: var(--color-primary);
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 0.5rem 2rem;
+    border: 1px solid var(--color-primary);
+    cursor: pointer;
+    transition: all 0.4s ease;
+    width: 100px;
+    height: 40px;
+}
+.reply__comment__section__btn__vaz:hover{
+    background-color: var(--color-primary);
+    color: #fff;
+    
+}
+.coomentlist__length{
+    margin-top: 1rem;
+    font-size: 18px;
+    color: var(--color-primary);
+    border-radius: 5px;
+    font-weight: bold;
+}
+.succes2{
+    margin-top: 2rem;
+}
+@media screen and (max-width:1000px){
+    .coursecomment{
+        margin-right: 2rem;
+    }
+}
+@media screen and (max-width:975px){
+    .coursecomment{
+        width: 90%;
+        margin-right: 0;
+        margin: 0 auto;
+        
+    }
+}
+@media screen and (max-width:500px){
+    .coursecomment__section__item__reply__name , .coursecomment__section__item__top__name{
+        font-size: 14px;
+    }
+    .coursecomment__section__item__reply__time ,.coursecomment__section__item__top__time{
+        font-size: 10px;
+    }
+    .coursecomment__section__item__content , .coursecomment__section__item__content__reply{
+        font-size: 12px;
+    }
+    .coursecomment__form textarea{
+        height: 150px;
+    }
+    .reply__comment__section{
+        margin-right: 0;
+    }
+    .reply__comment__section textarea{
+        min-height: 150px;
+    }
+}
+@media screen and (max-width:410px){
+    .coursecomment__section__item__content__reply{
+        padding: 1rem 0;
+    }
+    .coursecomment__section__item__content{
+        padding: 1rem 0;
+    }
+    .coursecomment__section__item__top__left{
+        font-size: 10px;
+        padding: 0.2rem 0.5rem;
+    }
+    .coursecomment__section__item__content , .coursecomment__section__item__content__reply{
+        font-size: 10px;
+    }
+    .coursecomment__section__item__reply::before {
+        top: 78%;
+    }
+    .reply__comment__section__btn__submit{
+        font-size: 12px;
+    }
+
+}
